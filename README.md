@@ -42,6 +42,7 @@ Copy-Item .env.example .env      # OPENAI_API_KEY, (발행하려면) DISCORD_WEB
 | 승인 화면 열기 | `.venv\Scripts\streamlit run app.py` → 브라우저에서 `http://localhost:8501` |
 | 새 호 만들기 (보내지 않음) | `.venv\Scripts\python.exe run.py --dry-run` |
 | API 키 없이 흐름만 시험 | `.venv\Scripts\python.exe run.py --mock --force-review` (가짜 AI + 일부러 멈춤) |
+| 워크플로 그림 보기 | `.venv\Scripts\python.exe show_graph.py` → 실제 컴파일한 그래프를 `docs/graph.html`로 그려 브라우저로 엶 (Mermaid 원문: [docs/graph.mmd](docs/graph.mmd)) |
 | 승인 대기 목록 | `.venv\Scripts\python.exe run.py --list` |
 | 명령줄로 승인 / 반려 | `.venv\Scripts\python.exe run.py --approve <thread_id>` / `--reject <thread_id> "사유"` |
 | 멈춤 기준 검증표 다시 만들기 | `.venv\Scripts\python.exe eval_criteria.py --rebuild` (결과: `store/criteria_eval.md`) |
@@ -58,6 +59,7 @@ Copy-Item .env.example .env      # OPENAI_API_KEY, (발행하려면) DISCORD_WEB
 | [criteria.py](criteria.py) | 멈춤 기준 3개 판정 |
 | [app.py](app.py) | 승인 화면 (Streamlit) |
 | [run.py](run.py) | 명령줄 실행·승인·반려 |
+| [show_graph.py](show_graph.py) | 실제 그래프를 Mermaid로 뽑아 그림으로 보기 (`docs/graph.mmd`, `docs/graph.html`) |
 | [eval_criteria.py](eval_criteria.py) | 기준 조합별 개입률·놓침·헛멈춤 측정 |
 | [holdout_advice.json](holdout_advice.json) | 기준을 고치기 전에 써 둔 별도 시험 문장 (과적합 확인용) |
 | [audience.yaml](audience.yaml), [sources.yaml](sources.yaml) | 독자·선별·멈춤 기준 설정, 수집 소스 |
