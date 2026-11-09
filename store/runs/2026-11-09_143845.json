@@ -1,0 +1,258 @@
+{
+  "run": {
+    "thread": "2026-11-09_143845",
+    "status": "done",
+    "run_at": "2026-11-09T14:38:45+09:00",
+    "mock": true,
+    "collected": 177,
+    "per_source": {
+      "연합뉴스 마켓": 39,
+      "한국경제 증권": 21,
+      "매일경제 증권": 25,
+      "동아일보 경제": 40,
+      "뉴시스 경제": 52
+    },
+    "dead_sources": [],
+    "prefiltered": 8,
+    "prelim": 20,
+    "tier1_pass": 0,
+    "picked": 5,
+    "final_ratio": 0.25,
+    "categories": {
+      "기타": 5
+    },
+    "picked_sources": {
+      "동아일보 경제": 2,
+      "뉴시스 경제": 2,
+      "매일경제 증권": 1
+    },
+    "drafted": 5,
+    "body_ok_rate": 1.0,
+    "verify_fail": 0,
+    "regen_pass": 0,
+    "verified": 5,
+    "skipped": 0,
+    "flagged": 5,
+    "review_dropped": 1,
+    "review_edited": 1,
+    "published": 0,
+    "dry_run": true
+  },
+  "flags": {
+    "0": [
+      "시험용 강제 검토 (--force-review)"
+    ],
+    "1": [
+      "시험용 강제 검토 (--force-review)"
+    ],
+    "2": [
+      "시험용 강제 검토 (--force-review)"
+    ],
+    "3": [
+      "시험용 강제 검토 (--force-review)"
+    ],
+    "4": [
+      "시험용 강제 검토 (--force-review)"
+    ]
+  },
+  "decision": {
+    "action": "approve",
+    "by": "web",
+    "edits": {
+      "0": {
+        "headline": "수정한 헤드라인 (시험)"
+      }
+    },
+    "drop": [
+      1
+    ],
+    "answered_at": "2026-11-09T14:40:47+09:00"
+  },
+  "trace": {
+    "tier1_pass": [],
+    "batches": [
+      {
+        "size": 40,
+        "passed": 4,
+        "last_in": "\"상장 미뤄도 강행해도 악재\"…앤트로픽 IPO '진퇴양난'",
+        "first_out": "배민·쿠팡에 과징금 6319억 '역대 최대'…양사 \"위법성 없다\"(종합)"
+      },
+      {
+        "size": 40,
+        "passed": 4,
+        "last_in": "중국 10월 생산자물가 5.7% 상승…'유가 여파' 4년여만에 최고",
+        "first_out": "배민·쿠팡에 역대 최대 과징금 6319억…\"담합과 비슷한 경쟁제한\""
+      },
+      {
+        "size": 40,
+        "passed": 4,
+        "last_in": "재경부, 亞 고위공무원 초청연수…韓 성장 경험 공유",
+        "first_out": "광주은행, 취업준비청년·대학생 장학금 등 자립 지원"
+      },
+      {
+        "size": 40,
+        "passed": 4,
+        "last_in": "방한객 22% 늘었는데…서울 호텔 객실 공급은 7% 증가 그쳐",
+        "first_out": "SGA솔루션즈, ‘FISCON 2026’에 참가…차세대 금융 보안 청사진 제시"
+      },
+      {
+        "size": 9,
+        "passed": 4,
+        "last_in": "'오늘은 오를까'…SK하이닉스 담은 1% 초고수들, 반등에 베팅",
+        "first_out": "“결국 미인계에 뚫렸나”…젠슨 황 ‘불륜’에 글로벌 여론 발칵"
+      }
+    ],
+    "final": [
+      {
+        "title": "코드021, ERP 기업 Odoo(오두)와 파트너십… AI 에이전트 결합 사업 추진",
+        "source": "동아일보 경제",
+        "category": "기타",
+        "subject": "s0",
+        "event": "e0",
+        "reason": "(mock)"
+      },
+      {
+        "title": "대웅제약, 주사 대신 붙이는 약…차세대 약물전달 기술 개발 나서",
+        "source": "동아일보 경제",
+        "category": "기타",
+        "subject": "s1",
+        "event": "e1",
+        "reason": "(mock)"
+      },
+      {
+        "title": "\"상장 미뤄도 강행해도 악재\"…앤트로픽 IPO '진퇴양난'",
+        "source": "뉴시스 경제",
+        "category": "기타",
+        "subject": "s3",
+        "event": "e3",
+        "reason": "(mock)"
+      },
+      {
+        "title": "박홍근 \"소방재정에 미래대응기금, 지방재정 안정화 측면서 검토\"",
+        "source": "뉴시스 경제",
+        "category": "기타",
+        "subject": "s4",
+        "event": "e4",
+        "reason": "(mock)"
+      },
+      {
+        "title": "“돈 넘친다는데 이자는 왜 올라?” 기업들 급전 빌리기 부담 커졌다는데",
+        "source": "매일경제 증권",
+        "category": "기타",
+        "subject": "s5",
+        "event": "e5",
+        "reason": "(mock)"
+      }
+    ],
+    "dropped_final": [
+      {
+        "title": "부동산 대신 주식 물려줬다…작년 주식 증여, 건물 첫 추월",
+        "source": "동아일보 경제",
+        "subject": "s2",
+        "event": "e2",
+        "why": "매체 상한 초과"
+      },
+      {
+        "title": "[올댓차이나] 홍콩 증시, 美 반도체주 강세에 반등… H주 0.22%↑",
+        "source": "뉴시스 경제",
+        "subject": "s6",
+        "event": "e6",
+        "why": "매체 상한 초과"
+      },
+      {
+        "title": "중국 10월 생산자물가 5.7% 상승…'유가 여파' 4년여만에 최고",
+        "source": "연합뉴스 마켓",
+        "subject": "s7",
+        "event": "e7",
+        "why": "최종 건수 초과"
+      }
+    ],
+    "verdicts": [
+      {
+        "title": "코드021, ERP 기업 Odoo(오두)와 파트너십… AI 에이전트 결합 사업 추진",
+        "ok": true,
+        "regen": 0,
+        "problems": []
+      },
+      {
+        "title": "대웅제약, 주사 대신 붙이는 약…차세대 약물전달 기술 개발 나서",
+        "ok": true,
+        "regen": 0,
+        "problems": []
+      },
+      {
+        "title": "\"상장 미뤄도 강행해도 악재\"…앤트로픽 IPO '진퇴양난'",
+        "ok": true,
+        "regen": 0,
+        "problems": []
+      },
+      {
+        "title": "박홍근 \"소방재정에 미래대응기금, 지방재정 안정화 측면서 검토\"",
+        "ok": true,
+        "regen": 0,
+        "problems": []
+      },
+      {
+        "title": "“돈 넘친다는데 이자는 왜 올라?” 기업들 급전 빌리기 부담 커졌다는데",
+        "ok": true,
+        "regen": 0,
+        "problems": []
+      }
+    ],
+    "skipped": []
+  },
+  "log": [
+    "① 수집 6시간 · 177건 · 소스 5곳",
+    "② 선별 177 → 사전필터 -8 → 예선 20(+1차 0) → 5건 · 라벨 {'기타': 5}",
+    "④ 검수 5 → 5건 · 1차 불합격 0 · 재생성 후 합격 0 · 스킵 0",
+    "④-1 승인 판정 5건 중 5건 기준에 걸림 → 사람 승인 대기",
+    "④-2 담당자 승인 · 뺀 기사 1건 · 고친 기사 1건 → 4건 발행",
+    "⑤ 발행 [dry-run] embed 5개 — 보내지 않음 (store/last_payload.json)"
+  ],
+  "verified": [
+    {
+      "title": "코드021, ERP 기업 Odoo(오두)와 파트너십… AI 에이전트 결합 사업 추진",
+      "url": "https://www.donga.com/news/Economy/article/all/20261109/134991767/1",
+      "source": "동아일보 경제",
+      "category": "기타",
+      "headline": "수정한 헤드라인 (시험)",
+      "summary": "(모의) 업무 프로세스 설계부터 운영 안정화까지 지원 통합 데이터 기반으로 조회·분석·반복 업무 처리 코드021(대표 권강빈)은 ERP(전사적 자원관리) 기업 Odoo(오두)와 파트너십을 맺었다고 9일 밝혔다. 코드021은 ",
+      "why": "(모의) 확인 포인트",
+      "regen": 0,
+      "edited": true
+    },
+    {
+      "title": "\"상장 미뤄도 강행해도 악재\"…앤트로픽 IPO '진퇴양난'",
+      "url": "https://www.newsis.com/view/NISX20261109_0003860314",
+      "source": "뉴시스 경제",
+      "category": "기타",
+      "headline": "(모의) 헤드라인",
+      "summary": "(모의) \"상장 미뤄도 강행해도 악재\"…앤트로픽 IPO '진퇴양난' 등록 2026.11.09 14:34:09 AI株 급락에 IPO 흥행 불확실성 확대…추수감사절 전 상장 추진 기업가치 최대 2조달러서 1.1조달러까지 하향 검",
+      "why": "(모의) 확인 포인트",
+      "regen": 0,
+      "edited": null
+    },
+    {
+      "title": "박홍근 \"소방재정에 미래대응기금, 지방재정 안정화 측면서 검토\"",
+      "url": "https://www.newsis.com/view/NISX20261109_0003860340",
+      "source": "뉴시스 경제",
+      "category": "기타",
+      "headline": "(모의) 헤드라인",
+      "summary": "(모의) 박홍근 \"소방재정에 미래대응기금, 지방재정 안정화 측면서 검토\" 등록 2026.11.09 12:27:36수정 2026.11.09 12:38:24 \"중장기 재원 대책은 재정분권 TF 논의\" \"기금 운용, 국내 주식시장",
+      "why": "(모의) 확인 포인트",
+      "regen": 0,
+      "edited": null
+    },
+    {
+      "title": "“돈 넘친다는데 이자는 왜 올라?” 기업들 급전 빌리기 부담 커졌다는데",
+      "url": "https://www.mk.co.kr/news/economy/12202302",
+      "source": "매일경제 증권",
+      "category": "기타",
+      "headline": "(모의) 헤드라인",
+      "summary": "(모의) 단기자금을 굴리는 머니마켓펀드(MMF)에 273조원이 쌓였지만, 기업이 급전을 마련할 때 부담하는 금리는 높아지고 있다. 돈이 몰리는데도 빌리는 이자는 오르는 셈이다. 투자자들이 당장 짧게 돈을 빌려주는 데는 부담을",
+      "why": "(모의) 확인 포인트",
+      "regen": 0,
+      "edited": null
+    }
+  ]
+}
